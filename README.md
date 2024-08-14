@@ -11,7 +11,7 @@ from disutils.version import LooseVersion
             raise AttributeError("PyAudio 0.2.11 or later is required (found version {})".format(pyaudio.__version__))
         return pyaudio
 ```
-##  replace thye above code with the given code
+##  replace the above code with the given code
 ```
 from packaging.version import Version
         if Version(pyaudio.__version__) < Version("0.2.11"):
